@@ -1,65 +1,65 @@
+/* Add any additional styles here */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    background-color: black;
-    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Arial', sans-serif;
 }
 
 nav {
-    background-color: crimson;
+    background-color: #333;
+    color: #fff;
     padding: 10px;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 nav li {
-    padding: 10px;
+    margin-right: 15px;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 header {
-    padding: 50px 0;
-    background-color: darkgrey;
+    text-align: center;
+    margin: 20px 0;
 }
 
 section {
-    max-width: 600px;
-    margin: 0 auto;
+    background-color: #fff;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
 }
 
-.threat {
+#creators {
+    margin-top: 30px;
+}
+
+.creator {
+    text-align: center;
     margin-bottom: 20px;
 }
 
-h2 {
-    margin-bottom: 10px;
-}
-
-p {
-    margin-bottom: 20px;
+.creator img {
+    max-width: 100%;
+    border-radius: 50%;
 }
 
 footer {
-    background-color: crimson;
-    color: white;
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
